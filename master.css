@@ -1,0 +1,129 @@
+@import url(http://fonts.google.apis.com/css?family=Montserrat:400, 700);
+
+
+body {
+  color: #555; /* Grey text */
+  margin: auto; /* Body covers full screen */
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  max-width: 1000px; /* limits area of content */
+  margin: 0 auto; /* fills div */
+}
+
+a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #F6A6233;
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+}
+
+#header {
+  background-color: #1abc9c; /* Sets header color */
+  height: 150px; /* Height of header */
+  line-height: 150px; /* Starts text in vertical center */
+}
+
+#header-title {
+  display: block; /* black display */
+  float:left; /* moves to left side */
+
+  font-size: 20px; /* font size */
+  font-weight: bold; /* font weight */
+}
+
+#header a {
+  color: white; /* font color */
+  text-decoration: none; /* not italic */
+
+  text-transform: uppercase; /* uppercase */
+  letter-spacing: 0.1em; /* smaller letter spacing */
+}
+
+#header a:hover {
+  color: #222; /* Hover color to black */
+}
+
+#header-nav {
+  display: block; /* block display */
+  float: right; /* moves to left sife */
+  margin-top: 0; /* removes initial margin */
+}
+
+#header-nav li {
+  display: inline; /* displays horizonally */
+  padding-left: 20px; /* moves text from eachother */
+}
+
+.post, .about {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.about {
+  text-align: center;
+}
+
+
+.post-container:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.post-author img {
+  height: 50px;
+  width: 50px;
+  vertical-align: middle;
+}
+
+.post-author img,
+.about-author img {
+  border-radius: 50%;
+}
+
+.post-author span {
+  margin-left: 16px;
+}
+
+.post-date {
+  color: #D2D2D2;
+
+  font-size: 14PX;
+  font-weight: bold;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer {
+  background: #2f2f2f;
+  padding: 50px 0;
+}
+
+.column {
+  min-width: 300px; /* sets min-width */
+  display: inline-block; /* preserves block props while in-line */
+  vertical-align: top; /* Sets vertical alignment to top of tallest */
+}
+
+#footer h4 {
+  color: white; /* font color white */
+  text-transform: uppercase; /* uppercase */
+  letter-spacing: 0.1em; /* smaller letter spacing */
+}
+
+#footer p {
+  color: white; /* font color white */
+}
